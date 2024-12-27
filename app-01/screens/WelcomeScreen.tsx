@@ -5,7 +5,7 @@ export default function WelcomeScreen({ navigation }: any) {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Mi nombre es:</Text>
-            <Text style={styles.name}>Emilio Chacha</Text>
+            <Text style={styles.name}>Brian Rodriguez</Text>
             <Text style={styles.title}>Carrera:</Text>
             <Text style={styles.name}>Desarrollo de Software</Text>
             <View>
