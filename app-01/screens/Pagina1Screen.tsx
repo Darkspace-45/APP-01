@@ -22,7 +22,7 @@ export default function Pagina1Screen() {
     }
 
     return (
-        <ImageBackground source={{ uri: "https://4kwallpapers.com/images/walls/thumbs_3t/19856.jpg" }}
+        <ImageBackground source={{ uri: "https://4kwallpapers.com/images/walls/thumbs_3t/20212.jpg" }}
             style={styles.img}>
             <TextInput placeholder="Ingresar Nombre"
                 placeholderTextColor={"#ffff"} style={styles.textInput}
@@ -34,7 +34,7 @@ export default function Pagina1Screen() {
             <TextInput placeholder="Ingresar Ciudad"
                 placeholderTextColor={"#ffff"} style={styles.textInput}
                 onChangeText={(texto) => setCiudad(texto)} value={Ciudad}/>
-            <Button title="Enviar"
+            <Button title="Ingresar"
                 onPress={() => datosAlert()} />
         </ImageBackground>
     )

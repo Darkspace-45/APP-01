@@ -45,7 +45,7 @@ export default function Tarjeta2(props: any) {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#7ff02d',
+        backgroundColor: '#7ff4a3',
         margin: 10,
         borderRadius: 20
     },
@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
         padding: 10
     },
     modalButton: {
-        backgroundColor: '#7ff02d',
+        backgroundColor: '#7ff4a3',
         padding: 10,
         borderRadius: 10,
         justifyContent: 'center',

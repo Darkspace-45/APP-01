@@ -22,7 +22,7 @@ export default function Tarjeta (props: any) {
 
 const styles = StyleSheet.create({
   container:{
-    backgroundColor:'#5ca8db',
+    backgroundColor:'#6666',
     margin:10,
     borderRadius:10
   },
